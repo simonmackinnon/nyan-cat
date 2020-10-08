@@ -4,7 +4,8 @@
   "description": "Nyan!",
   "main": "index.html",
   "scripts": {
-    "less": "lessc less/nyan.less css/nyan.css"
+    "less": "lessc less/nyan.less css/nyan.css",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/cristurm/nyan-cat#readme",
   "devDependencies": {
-    "less": "^3.12.2"
+    "less": "^3.12.2",
+    "express": "^4.16.1"
   }
 }
